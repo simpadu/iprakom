@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h1 style="text-align:center" class="page-heading">List Peserta Kulgram GIT</h1>
+{% for my_page in site.pages %}
+	{% if my_page.nama %}
+		<h3 class="page-heading">{{my_page.nama | escape}}</h3>
+		<p>{{my_page.instansi}}</p>
+	{% endif %}
+{% endfor %}

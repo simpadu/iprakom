@@ -1,0 +1,23 @@
+title: Kulgram Iprakom
+email: iprakomindonesia@gmail.com
+description: Media belajar kulgram git
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+excerpt_separator: <a name='more'></a>
+
+show_downloads: true
+github:
+  owner_name: iprakom
+  repository_name: Kulgram Git
+  repository_url: https://github.com/iprakom/kulgram-git
+  is_user_page: true
+  is_project_page: true
+  zip_url: https://github.com/iprakom/kulgram-git/archive/master.zip
+  
+  
+markdown: kramdown
+theme: jekyll-theme-architect
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  
